@@ -1,0 +1,20 @@
+{
+    "name": "test echarts - 插件的名称",
+    "version": "1.0",
+    "description": "插件的描述",
+    "icons": {"32": "/images/icon00.png"},
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "/images/icon00.png",
+        "default_title": "插件的title"
+    },
+    "manifest_version": 2,
+    "commands": {
+        "_execute_browser_action": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+V"
+            }
+        }
+    },
+    "homepage_url": "https://www.bing.com"
+}
